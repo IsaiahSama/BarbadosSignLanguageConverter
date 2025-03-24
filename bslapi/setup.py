@@ -10,4 +10,5 @@ setup(
     description="A package containing the classes to expose APIs to interact with onnx model.",
     license="MIT",
     keywords="sign language",
+    install_requires=["numpy", "onnxruntime"],
 )
