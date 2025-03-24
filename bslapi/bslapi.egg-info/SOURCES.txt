@@ -1,0 +1,5 @@
+setup.py
+bslapi.egg-info/PKG-INFO
+bslapi.egg-info/SOURCES.txt
+bslapi.egg-info/dependency_links.txt
+bslapi.egg-info/top_level.txt
