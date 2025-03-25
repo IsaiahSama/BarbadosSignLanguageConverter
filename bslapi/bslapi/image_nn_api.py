@@ -29,7 +29,7 @@ class ImageNNApi:
         self.onnx_inp_key = onnx_inp_key
         self.session = ort.InferenceSession(self.onnx_file_path)
 
-    def recognize_image_from_ndarry(self, image: np.ndarray) -> Any:
+    def recognize_image_from_ndarray(self, image: np.ndarray) -> Any:
         """Given an ndarray, run the classification and return the most likely output"""
         result = self.session.run(None, {self.onnx_inp_key: image})
         y: Any = result[0]
