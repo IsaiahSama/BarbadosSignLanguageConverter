@@ -9,7 +9,7 @@ app = FastAPI()
 
 @app.get("/")
 async def index(request: Request):
-    return "Hello there! I think we got this setup!"
+    return {"message": "Hello World"}
 
 
 @app.post("/recognize/image")
